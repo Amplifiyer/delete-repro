@@ -1,6 +1,6 @@
 type Todo {
   id: ID!
-  names: String!
+  name: String!
   description: String
   createdAt: AWSDateTime!
   updatedAt: AWSDateTime!
@@ -163,7 +163,7 @@ type ModelTodoConnection {
 
 input ModelTodoFilterInput {
   id: ModelIDInput
-  names: ModelStringInput
+  name: ModelStringInput
   description: ModelStringInput
   createdAt: ModelStringInput
   updatedAt: ModelStringInput
@@ -178,7 +178,7 @@ type Query {
 }
 
 input ModelTodoConditionInput {
-  names: ModelStringInput
+  name: ModelStringInput
   description: ModelStringInput
   and: [ModelTodoConditionInput]
   or: [ModelTodoConditionInput]
@@ -189,13 +189,13 @@ input ModelTodoConditionInput {
 
 input CreateTodoInput {
   id: ID
-  names: String!
+  name: String!
   description: String
 }
 
 input UpdateTodoInput {
   id: ID!
-  names: String
+  name: String
   description: String
 }
 
@@ -211,7 +211,7 @@ type Mutation {
 
 input ModelSubscriptionTodoFilterInput {
   id: ModelSubscriptionIDInput
-  names: ModelSubscriptionStringInput
+  name: ModelSubscriptionStringInput
   description: ModelSubscriptionStringInput
   createdAt: ModelSubscriptionStringInput
   updatedAt: ModelSubscriptionStringInput
