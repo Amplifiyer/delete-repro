@@ -165,6 +165,8 @@ input ModelTodoFilterInput {
   id: ModelIDInput
   names: ModelStringInput
   description: ModelStringInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
   and: [ModelTodoFilterInput]
   or: [ModelTodoFilterInput]
   not: ModelTodoFilterInput
@@ -181,6 +183,8 @@ input ModelTodoConditionInput {
   and: [ModelTodoConditionInput]
   or: [ModelTodoConditionInput]
   not: ModelTodoConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
 }
 
 input CreateTodoInput {
@@ -209,6 +213,8 @@ input ModelSubscriptionTodoFilterInput {
   id: ModelSubscriptionIDInput
   names: ModelSubscriptionStringInput
   description: ModelSubscriptionStringInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
   and: [ModelSubscriptionTodoFilterInput]
   or: [ModelSubscriptionTodoFilterInput]
 }
