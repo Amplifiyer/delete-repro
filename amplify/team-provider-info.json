@@ -21,31 +21,8 @@
       "api": {
         "v1515247391": {}
       },
-      "analytics": {
-        "Pinpoint": {
-          "Name": "amplifyworkshop-dev",
-          "Id": "c87294362f9c42c9bf264ce82aa70f1d",
-          "Region": "us-west-2"
-        }
-      },
-      "notifications": {
-        "Pinpoint": {
-          "Name": "amplifyworkshop-dev",
-          "Id": "c87294362f9c42c9bf264ce82aa70f1d",
-          "Region": "us-west-2"
-        }
-      },
       "auth": {
         "amplifyworkshop7e30781d": {}
-      },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d1pjp6lmw73ut3",
-          "type": "cicd"
-        }
-      },
-      "storage": {
-        "s3fb0b82e5": {}
       }
     }
   }
